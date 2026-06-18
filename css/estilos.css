@@ -1,0 +1,106 @@
+#barra {
+    position: sticky;
+    background-color: #393939;
+}
+
+.container {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*Sección de carusel de imágenes*/
+
+.carousel-item {
+    height : 100vh; 
+    min-height : 350px;
+    background-size : cover;
+    background-position: center;
+}
+
+.img-1 {
+    background-image: url(“img/foto-1.jpg”);
+}
+
+.img-2 {
+    background-image: url(“../img/foto2.jpg”);
+}
+
+.img-3 {
+    background-image: url(“../img/foto3.jpg”);
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+}
+
+#Cajajumbotron {
+    background-color: white;
+}
+
+.fondo{
+    background-color: #ecede9;
+}
+
+/*Sección de footer*/
+
+.footer {
+    background-color: #393939;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: white;
+    opacity: 0.85;
+}
+
+/*Sección de cards*/
+
+.card {
+    width: 200px;
+    height: auto;
+    margin: 3%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    
+}
+
+.card:hover {
+    background-color: #ecede9;
+    transform: scale(1.07);
+    transition: all 0.5s ease-out
+}
+
+#card-section-1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#card-section-2 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Sección de botones de descarga*/
+
+#boton-applestore,
+#boton-playstore {
+    width: 80%;
+    max-width: 500px;
+    padding: 0;
+}
+
+#boton-applestore img,
+#boton-playstore img {
+    max-width: 100px;
+    height: auto;
+    padding: 10%;
+}
